@@ -1,0 +1,14 @@
+{
+  "url": {
+    "homepage": "https://qa-classic.myshoptet.com/",
+    "product": "https://qa-classic.myshoptet.com/cypress-product-without-variants/",
+    "checkout": "https://qa-classic.myshoptet.com/kosik/"
+  },
+  "testProduct": {
+    "name": "Cypress product without variants",
+    "code": "CY/WITHOUTVARIANTS/0",
+    "priceId": "73",
+    "maxAmount": "3"
+  },
+  "couponCode": "odCastky%"
+}
