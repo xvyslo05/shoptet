@@ -1,0 +1,17 @@
+{
+  "url": {
+    "homepage": "https://qa-disco.myshoptet.com/",
+    "product": "https://qa-disco.myshoptet.com/cypress-product-without-variants/",
+    "checkout": "https://qa-disco.myshoptet.com/kosik/"
+  },
+  "testProduct": {
+    "name": "Cypress product without variants",
+    "code": "CY/WITHOUTVARIANTS/0",
+    "priceId": "73",
+    "maxAmount": "3"
+  },
+  "couponCode": "odCastky%",
+  "outOfStockProduct": "https://qa-disco.myshoptet.com/out-of-stock/",
+  "similarProduct": "https://qa-disco.myshoptet.com/podobny-produkt/"
+
+}
