@@ -42,7 +42,7 @@ describe('Checkout step 1', () => {
   })
 
   it('Remove one of the multiple products', () => {
-    cy.visit('https://qa-classic.myshoptet.com/podobny-produkt/')
+    cy.visit(fixtures.similarProduct)
 
     let tableLength = 2
 
@@ -68,9 +68,9 @@ describe('Checkout step 1', () => {
 describe('Apply coupon', () => {
   it('Apply coupon code', () => {
     const quantity = 50
-    const discountPercentage = 0.5
+    const discountRatio = 0.5
     
-    cy.visit('https://qa-classic.myshoptet.com/out-of-stock/')
+    cy.visit(fixtures.outOfStockProduct)
 
     cy.getByTestId('cartAmount').clear().type(quantity)
 
@@ -88,7 +88,7 @@ describe('Apply coupon', () => {
 
       cy.getByTestId('recapFullPrice').then(($span) => {
         const discountedPrice = Number($span.text().replace(/[^\d\.]/g, ''))
-        expect(discountedPrice).to.be.equal(fullPrice * discountPercentage)
+        expect(discountedPrice).to.be.equal(fullPrice * discountRatio)
       })
     })
 

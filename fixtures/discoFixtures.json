@@ -10,5 +10,8 @@
     "priceId": "73",
     "maxAmount": "3"
   },
-  "couponCode": "odCastky%"
+  "couponCode": "odCastky%",
+  "outOfStockProduct": "https://qa-disco.myshoptet.com/out-of-stock/",
+  "similarProduct": "https://qa-disco.myshoptet.com/podobny-produkt/"
+
 }

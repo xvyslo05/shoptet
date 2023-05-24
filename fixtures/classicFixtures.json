@@ -10,5 +10,7 @@
     "priceId": "73",
     "maxAmount": "3"
   },
-  "couponCode": "odCastky%"
+  "couponCode": "odCastky%",
+  "outOfStockProduct": "https://qa-classic.myshoptet.com/out-of-stock/",
+  "similarProduct": "https://qa-classic.myshoptet.com/podobny-produkt/"
 }
